@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/pauli_hamiltonian_evolution/__init__.py
+src/pauli_hamiltonian_evolution/evolution.py
+src/pauli_hamiltonian_evolution/examples.py
+src/pauli_hamiltonian_evolution/hamiltonian.py
+src/pauli_hamiltonian_evolution/metrics.py
+src/pauli_hamiltonian_evolution.egg-info/PKG-INFO
+src/pauli_hamiltonian_evolution.egg-info/SOURCES.txt
+src/pauli_hamiltonian_evolution.egg-info/dependency_links.txt
+src/pauli_hamiltonian_evolution.egg-info/requires.txt
+src/pauli_hamiltonian_evolution.egg-info/top_level.txt
+tests/test_evolution.py
+tests/test_hamiltonian.py
+tests/test_metrics.py
