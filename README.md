@@ -91,7 +91,7 @@ The random-overrotation experiment uses a fixed NumPy random seed for reproducib
 - The Hamiltonian compiler assumes a real-coefficient sparse Pauli expansion with equal-length Pauli strings.
 - First-order product formulas are used; higher-order Suzuki formulas are outside the scope of this mini-project.
 - The random error model samples independent Gaussian perturbations to compiled `RZ` angles. It is a random-unitary control-error model, not a general stochastic quantum channel.
-- Dense exact references scale exponentially with qubit number and are intended only for small validation examples.
+- Dense exact exponential references scale exponentially with qubit number and are intended only for small validation examples.
 
 ## Submission checklist
 
