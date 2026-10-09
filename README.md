@@ -16,7 +16,7 @@ The notebook follows the project in the order it was developed:
 ```text
 .
 ├── notebooks/
-│   └── mini_project_1_clean.ipynb
+│   └── mini_project_1.ipynb
 ├── src/
 │   └── pauli_hamiltonian_evolution/
 │       ├── __init__.py
@@ -56,7 +56,7 @@ uv sync --locked
 Launch the notebook with:
 
 ```bash
-uv run jupyter lab notebooks/mini_project_1_clean.ipynb
+uv run jupyter lab notebooks/mini_project_1.ipynb
 ```
 
 ## Tests and formatting
@@ -80,7 +80,7 @@ Restart the kernel and run all cells before submission. To execute the notebook 
 uv run jupyter nbconvert \
   --to notebook \
   --execute \
-  --inplace notebooks/mini_project_1_clean.ipynb
+  --inplace notebooks/mini_project_1.ipynb
 ```
 
 The random-overrotation experiment uses a fixed NumPy random seed for reproducibility.
