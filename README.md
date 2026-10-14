@@ -93,12 +93,4 @@ The random-overrotation experiment uses a fixed NumPy random seed for reproducib
 - The random error model samples independent Gaussian perturbations to compiled `RZ` angles. It is a random-unitary control-error model, not a general stochastic quantum channel.
 - Dense exact exponential references scale exponentially with qubit number and are intended only for small validation examples.
 
-## Submission checklist
 
-- [ ] `uv sync --locked`
-- [ ] `uv run pytest`
-- [ ] `uv run ruff check .`
-- [ ] `uv run ruff format --check .`
-- [ ] Restart notebook kernel and run all cells
-- [ ] Check that plots and circuit diagrams render correctly
-- [ ] Confirm random seeds and numerical tolerances are documented
